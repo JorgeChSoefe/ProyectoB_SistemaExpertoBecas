@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decisionTable id="beca-socioeconomica" hitPolicy="FIRST">
+  <rule categoria="1" min="0" max="100000" />
+  <rule categoria="2" min="100000.01" max="150000" />
+  <rule categoria="3" min="150000.01" max="225000" />
+  <rule categoria="4" min="225000.01" max="300000" />
+  <rule categoria="5" min="300000.01" max="400000" />
+</decisionTable>

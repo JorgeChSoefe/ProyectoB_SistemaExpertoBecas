@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "3kFR+o99CSI=",
+  "success": true,
+  "projectFilePath": "D:\\Documentos Usuarios\\porrasva\\OneDrive - Banco Central de Costa Rica\\Desktop\\Proyecto Final\\Fuentes del proyecto\\ProyectoB_SistemaExpertoBecas\\ProyectoB.SistemaExpertoBecas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\porrasva\\.nuget\\packages\\nrules\\1.0.4\\nrules.1.0.4.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\nrules.fluent\\1.0.4\\nrules.fluent.1.0.4.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\nrules.rulemodel\\1.0.4\\nrules.rulemodel.1.0.4.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\nrules.runtime\\1.0.4\\nrules.runtime.1.0.4.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\porrasva\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.29\\microsoft.netcore.app.host.win-x64.8.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,91 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProyectoB.SistemaExpertoBecas/1.0.0": {
+        "dependencies": {
+          "NRules": "1.0.4",
+          "NRules.Fluent": "1.0.4"
+        },
+        "runtime": {
+          "ProyectoB.SistemaExpertoBecas.dll": {}
+        }
+      },
+      "NRules/1.0.4": {
+        "dependencies": {
+          "NRules.Fluent": "1.0.4",
+          "NRules.Runtime": "1.0.4"
+        }
+      },
+      "NRules.Fluent/1.0.4": {
+        "dependencies": {
+          "NRules.RuleModel": "1.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "NRules.RuleModel/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "NRules.Runtime/1.0.4": {
+        "dependencies": {
+          "NRules.RuleModel": "1.0.4"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProyectoB.SistemaExpertoBecas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NRules/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q2qoCrrke6E/9dIYSJwBOnME4sXM4QG86QP/M4Hc1cL5iU+GQTgqSz3C25FsjP+9VRjjK4pK+9SOMtuSqCtClA==",
+      "path": "nrules/1.0.4",
+      "hashPath": "nrules.1.0.4.nupkg.sha512"
+    },
+    "NRules.Fluent/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xI29FDLLrO66pj72o7E70AjM6GwsE135M/eLeEDSrWNh9SybJ7sxSEP1s3g1F1BGv3NR0xkcLdTXqrBPGwidNg==",
+      "path": "nrules.fluent/1.0.4",
+      "hashPath": "nrules.fluent.1.0.4.nupkg.sha512"
+    },
+    "NRules.RuleModel/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VpdlkaE6ImoAf9PnzqpF7rd/P0Sc1CvoCNIyFmTcA4V574a9TemxmN5RfM1ONhVmxIK3qkU8w6RakVHd3gPoGA==",
+      "path": "nrules.rulemodel/1.0.4",
+      "hashPath": "nrules.rulemodel.1.0.4.nupkg.sha512"
+    },
+    "NRules.Runtime/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xDk+/nJJA8nOf+qayIo+hVUc8pBe5mdPCHY6ciSjJtEnwBRfVuVWGDMLOqOhAHUy3Hr17g0xW1LMIl4JTRhPXg==",
+      "path": "nrules.runtime/1.0.4",
+      "hashPath": "nrules.runtime.1.0.4.nupkg.sha512"
+    }
+  }
+}

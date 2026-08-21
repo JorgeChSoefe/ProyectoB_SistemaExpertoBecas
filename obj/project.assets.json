@@ -1,0 +1,219 @@
+{
+  "version": 4,
+  "targets": {
+    "net8.0": {
+      "NRules/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "NRules.Fluent": "1.0.4",
+          "NRules.Runtime": "1.0.4"
+        }
+      },
+      "NRules.Fluent/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "NRules.RuleModel": "1.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.Fluent.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NRules.RuleModel/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.RuleModel.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NRules.Runtime/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "NRules.RuleModel": "1.0.4"
+        },
+        "compile": {
+          "lib/netstandard2.1/NRules.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/NRules.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NRules/1.0.4": {
+      "sha512": "q2qoCrrke6E/9dIYSJwBOnME4sXM4QG86QP/M4Hc1cL5iU+GQTgqSz3C25FsjP+9VRjjK4pK+9SOMtuSqCtClA==",
+      "type": "package",
+      "path": "nrules/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "nrules.1.0.4.nupkg.sha512",
+        "nrules.nuspec"
+      ]
+    },
+    "NRules.Fluent/1.0.4": {
+      "sha512": "xI29FDLLrO66pj72o7E70AjM6GwsE135M/eLeEDSrWNh9SybJ7sxSEP1s3g1F1BGv3NR0xkcLdTXqrBPGwidNg==",
+      "type": "package",
+      "path": "nrules.fluent/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NRules.Fluent.dll",
+        "lib/netstandard2.0/NRules.Fluent.xml",
+        "lib/netstandard2.1/NRules.Fluent.dll",
+        "lib/netstandard2.1/NRules.Fluent.xml",
+        "nrules.fluent.1.0.4.nupkg.sha512",
+        "nrules.fluent.nuspec"
+      ]
+    },
+    "NRules.RuleModel/1.0.4": {
+      "sha512": "VpdlkaE6ImoAf9PnzqpF7rd/P0Sc1CvoCNIyFmTcA4V574a9TemxmN5RfM1ONhVmxIK3qkU8w6RakVHd3gPoGA==",
+      "type": "package",
+      "path": "nrules.rulemodel/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NRules.RuleModel.dll",
+        "lib/netstandard2.0/NRules.RuleModel.xml",
+        "lib/netstandard2.1/NRules.RuleModel.dll",
+        "lib/netstandard2.1/NRules.RuleModel.xml",
+        "nrules.rulemodel.1.0.4.nupkg.sha512",
+        "nrules.rulemodel.nuspec"
+      ]
+    },
+    "NRules.Runtime/1.0.4": {
+      "sha512": "xDk+/nJJA8nOf+qayIo+hVUc8pBe5mdPCHY6ciSjJtEnwBRfVuVWGDMLOqOhAHUy3Hr17g0xW1LMIl4JTRhPXg==",
+      "type": "package",
+      "path": "nrules.runtime/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NRules.dll",
+        "lib/netstandard2.0/NRules.xml",
+        "lib/netstandard2.1/NRules.dll",
+        "lib/netstandard2.1/NRules.xml",
+        "nrules.runtime.1.0.4.nupkg.sha512",
+        "nrules.runtime.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "NRules >= 1.0.4",
+      "NRules.Fluent >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\porrasva\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Documentos Usuarios\\porrasva\\OneDrive - Banco Central de Costa Rica\\Desktop\\Proyecto Final\\Fuentes del proyecto\\ProyectoB_SistemaExpertoBecas\\ProyectoB.SistemaExpertoBecas.csproj",
+      "projectName": "ProyectoB.SistemaExpertoBecas",
+      "projectPath": "D:\\Documentos Usuarios\\porrasva\\OneDrive - Banco Central de Costa Rica\\Desktop\\Proyecto Final\\Fuentes del proyecto\\ProyectoB_SistemaExpertoBecas\\ProyectoB.SistemaExpertoBecas.csproj",
+      "packagesPath": "C:\\Users\\porrasva\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos Usuarios\\porrasva\\OneDrive - Banco Central de Costa Rica\\Desktop\\Proyecto Final\\Fuentes del proyecto\\ProyectoB_SistemaExpertoBecas\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\porrasva\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.300"
+    },
+    "frameworks": {
+      "net8.0": {
+        "framework": "net8.0",
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "NRules": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          },
+          "NRules.Fluent": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.29, 8.0.29]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.29, 8.0.29]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
